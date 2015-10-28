@@ -25,5 +25,9 @@ return [
     'button' => 'Button',
     'for_sale' => 'For Sale',
     'for_rent' => 'For Rent',
+    'jobs' => 'Jobs',
+    'events' => 'Events',
+    'news' => 'News',
+    'exams' => 'Exams',
 
 ];

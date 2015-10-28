@@ -16,6 +16,10 @@
 					<li>{!! link_to('macros', trans('navs.macros')) !!}</li>
 					<li>{!! link_to('for_sale', trans('navs.for_sale')) !!}</li>
 					<li>{!! link_to('for_rent', trans('navs.for_rent')) !!}</li>
+					<li>{!! link_to('jobs', trans('navs.jobs')) !!}</li>
+					<li>{!! link_to('events', trans('navs.events')) !!}</li>
+					<li>{!! link_to('news', trans('navs.news')) !!}</li>
+					<li>{!! link_to('exams', trans('navs.exams')) !!}</li>
 				</ul>
 
 				<ul class="nav navbar-nav navbar-right">
