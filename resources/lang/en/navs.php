@@ -23,5 +23,7 @@ return [
     'macros' => 'Macros',
     'register' => 'Register',
     'button' => 'Button',
+    'for_sale' => 'For Sale',
+    'for_rent' => 'For Rent',
 
 ];
