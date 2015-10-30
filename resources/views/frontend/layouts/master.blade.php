@@ -21,6 +21,14 @@
         <link rel="apple-touch-icon" href="apple-touch-icon.png">
         <!-- Place favicon.ico in the root directory -->
 
+
+    <link rel="stylesheet" href="{{ URL::asset('yellow/main1.css') }}" />      
+    <link rel="stylesheet" href="{{ URL::asset('yellow/normalize.css') }}" />      
+    <link rel="stylesheet" href="{{ URL::asset('yellow/easy-responsive-tabs.css') }}" />      
+    <link rel="stylesheet" href="{{ URL::asset('yellow/newcss.css') }}" />  
+    <link rel="stylesheet" href="{{ URL::asset('yellow/select2.css') }}" /> 
+    <link rel="stylesheet" href="{{ URL::asset('yellow/custom.css') }}" /> 
+
         {!! HTML::script("js/vendor/modernizr-2.8.3.min.js") !!}
     </head>
     <body>
@@ -39,10 +47,15 @@
         <script>window.jQuery || document.write('<script src="{{asset('js/vendor/jquery-1.11.2.min.js')}}"><\/script>')</script>
         {!! HTML::script('js/vendor/bootstrap.min.js') !!}
 
+        <script type="text/javascript" src="{{ URL::asset('yellow/easyResponsiveTabs.js') }}"></script>
+        <script type="text/javascript" src="{{ URL::asset('yellow/custom.js') }}"></script>
+
+
         @yield('before-scripts-end')
         {!! HTML::script(elixir('js/frontend.js')) !!}
         @yield('after-scripts-end')
 
+        @include('includes.partials.footer')
         @include('includes.partials.ga')
     </body>
 </html>

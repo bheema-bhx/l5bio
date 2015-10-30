@@ -35,4 +35,9 @@ class FrontendController extends Controller {
 	{
 		return view('frontend.macros');
 	}
+
+	public function jobs()
+	{
+		return view('frontend.jobs');
+	}
 }
