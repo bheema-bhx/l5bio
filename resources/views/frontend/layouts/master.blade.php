@@ -22,7 +22,7 @@
         <!-- Place favicon.ico in the root directory -->
 
 
-    <link rel="stylesheet" href="{{ URL::asset('yellow/main1.css') }}" />      
+      
     <link rel="stylesheet" href="{{ URL::asset('yellow/normalize.css') }}" />      
     <link rel="stylesheet" href="{{ URL::asset('yellow/easy-responsive-tabs.css') }}" />      
     <link rel="stylesheet" href="{{ URL::asset('yellow/newcss.css') }}" />  

@@ -40,4 +40,9 @@ class FrontendController extends Controller {
 	{
 		return view('frontend.jobs');
 	}
+
+	public function events()
+	{
+		return view('frontend.events');
+	}
 }
